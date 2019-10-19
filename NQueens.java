@@ -51,17 +51,8 @@ class NQueens {
 		    int a[][] = new int[N][N];
 		    b = new int[N];
 		    res = "";
-		  //  for(int j=0;j<N;j++){
-		  //  if
-		  //(
-		    NQ(a,N,0);//==true)
-		    //if(!results.contains("["+res+"] "))
-		  //  results.add("["+res+"] ");
-    //         res="";
-		  //  }
-		  //  for(String x:results){
-		  //      System.out.print(x);
-		  //  }
+		    NQ(a,N,0);
+		
 		  if(!solExists){
 		      System.out.print("-1");
 		  }
